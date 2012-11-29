@@ -1,0 +1,14 @@
+---
+en:
+  '':
+    Users:
+      matthew:
+        open_source:
+          rails_i18n:
+            rails_internationalize:
+              py:
+                some_text: ! 'some text '
+                tsometext: <%= t(.some_text) %>
+                ttsometext: <%= t(.tsometext) %>
+                internationalizecommand: InternationalizeCommand
+                extractlocalecommand: ExtractLocaleCommand
